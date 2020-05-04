@@ -1,0 +1,2125 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM_extensions\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2020-05-04 17:47+0200\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/"
+"civicrm_extensions/language/hu/)\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: CRM/Volunteer/BAO/Commendation.php
+msgid "Volunteer Commendation for %1"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Need.php templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Any"
+msgstr "Bármely"
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Radius should exist and be numeric"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Either Country or both Latitude and Longitude are required"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Profile(s) for Individual Registration"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Individual Registration"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Profile(s) for Group Registration"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Group Registration"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Profile(s) for Both Individual and Group Registration"
+msgstr ""
+
+#: CRM/Volunteer/BAO/Project.php
+msgid "Both"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "CiviVolunteer Need ID"
+msgstr "CiviÖnkéntes szükséglet azonosító"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Start Date and Time"
+msgstr "Kezdő dátum és idő"
+
+#: CRM/Volunteer/DAO/Need.php
+#, fuzzy
+#| msgid "Start Date and Time"
+msgid "End Date and Time"
+msgstr "Kezdő dátum és idő"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Duration"
+msgstr "Időtartam"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Flexible"
+msgstr "Rugalmas"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Quantity"
+msgstr "Mennyiség"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Visibility"
+msgstr "Láthatóság"
+
+#: CRM/Volunteer/DAO/Need.php ang/volunteer/VolOppsCtrl.html
+#: templates/CRM/Volunteer/Form/Log.tpl
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Role"
+msgstr "Szerepkör"
+
+#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Date of Creation"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Need.php
+msgid "Date of Last Update"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Project.php CRM/Volunteer/DAO/ProjectContact.php
+msgid "CiviVolunteer Project ID"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/DAO/Project.php ang/volunteer/Projects.html
+msgid "Title"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Project.php
+#, fuzzy
+#| msgid "Duration"
+msgid "Description"
+msgstr "Időtartam"
+
+#: CRM/Volunteer/DAO/Project.php
+msgid "Entity Table"
+msgstr "Egyed tábla"
+
+#: CRM/Volunteer/DAO/Project.php
+msgid "Location Block ID"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Project.php CRM/Volunteer/Form/Settings.php
+#: ang/volunteer/Project.html ang/volunteer/Projects.html
+msgid "Campaign"
+msgstr ""
+
+#: CRM/Volunteer/DAO/ProjectContact.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "CiviVolunteer ProjectContact Row ID"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/DAO/ProjectContact.php
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact ID"
+msgstr "Kapcsolat"
+
+#: CRM/Volunteer/DAO/ProjectContact.php
+msgid "Relationship Type"
+msgstr ""
+
+#: CRM/Volunteer/Form/Commendation.php
+msgid "Commend %1"
+msgstr ""
+
+#: CRM/Volunteer/Form/Commendation.php
+msgid "Why does this volunteer merit a commendation?"
+msgstr ""
+
+#: CRM/Volunteer/Form/Commendation.php
+msgid "Update"
+msgstr ""
+
+#: CRM/Volunteer/Form/Commendation.php ang/volunteer/Projects.js
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Delete"
+msgstr "Törlés"
+
+#: CRM/Volunteer/Form/Commendation.php CRM/Volunteer/Form/Log.php
+#: ang/volunteer/Project.js
+msgid "Save"
+msgstr "Mentés"
+
+#: CRM/Volunteer/Form/Commendation.php CRM/Volunteer/Form/Log.php
+#: ang/volunteer/Project.html js/backbone/apps/search/search_controller.js
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: CRM/Volunteer/Form/Log.php
+msgid "Log Volunteer Hours - %1"
+msgstr "Önkéntes órák naplója - %1"
+
+#: CRM/Volunteer/Form/Log.php
+#, fuzzy
+#| msgid "-select-"
+msgid "- select -"
+msgstr "-kiválasztás-"
+
+#: CRM/Volunteer/Form/Log.php
+msgid "-select-"
+msgstr "-kiválasztás-"
+
+#: CRM/Volunteer/Form/Log.php
+#, fuzzy
+#| msgid "Please enter the actual duration for Completed volunteer activity"
+msgid "Please enter the actual duration volunteered."
+msgstr "Kérem adja meg a befejezett önkéntes tevékenység tényleges időtartamát"
+
+#: CRM/Volunteer/Form/Log.php
+msgid "Please enter duration as a number."
+msgstr ""
+
+#: CRM/Volunteer/Form/Log.php
+msgid "Volunteer hours have been logged."
+msgstr "Önkéntesek idejei naplózva."
+
+#: CRM/Volunteer/Form/Log.php ang/volunteer/Project.js
+msgid "Saved"
+msgstr "Mentve"
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "- none -"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php ang/volunteer/Project.html
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Actions"
+msgid "Location"
+msgstr "Műveletek"
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Are new Projects active by default?"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Campaign Filter Whitelist/Blacklist"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Blacklist"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Whitelist"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Campaign Type(s)"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Help text for the project settings screen"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Volunteer Needs"
+msgid "Save Volunteer Settings"
+msgstr "Önkéntes igények"
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "Default to Contact(s) Having this Relationship with the Acting Contact"
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Select Contact"
+msgid "Default to Selected Contact(s)"
+msgstr "Kapcsolat kiválasztása"
+
+#: CRM/Volunteer/Form/Settings.php
+msgid ""
+"The values set in this section will be used as defaults for volunteer "
+"projects in both the form and data layers."
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid ""
+"Streamline creation of new volunteer projects by selecting the options you "
+"choose most. The <a href=\"%1\">New Project screen</a> will open with these "
+"settings already selected. These values will also be used for projects "
+"created through API unless other values are specified."
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid ""
+"Note: Projects created by users who do not have the \"edit volunteer project "
+"relationships\" or \"edit volunteer registration profiles\" permissions will "
+"always use the defaults for those fields."
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid ""
+"Your whitelist of campaign types is empty. As a result, no campaigns will be "
+"available for Volunteer Projects."
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+msgid "%1 is a required field."
+msgstr ""
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Contact Saved"
+msgid "Changes Saved"
+msgstr "Kapcsolat mentve"
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Select Contact"
+msgid "Acting Contact"
+msgstr "Kapcsolat kiválasztása"
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Select Contact"
+msgid "Related Contact(s)"
+msgstr "Kapcsolat kiválasztása"
+
+#: CRM/Volunteer/Form/Settings.php
+#, fuzzy
+#| msgid "Select Contact"
+msgid "Specific Contact(s)"
+msgstr "Kapcsolat kiválasztása"
+
+#: CRM/Volunteer/Form/VolunteerReport.mgd.php
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Volunteer Report"
+msgstr "Önkéntes szerepkör"
+
+#: CRM/Volunteer/Form/VolunteerReport.php ang/volunteer/VolOppsCtrl.html
+msgid "Project"
+msgstr "Projekt"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Volunteer Name"
+msgstr "Önkéntes neve"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Source Contact Name"
+msgstr "Forrás kapcsolat neve"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Target Contact Name"
+msgstr "Cél kapcsolat neve"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+#, fuzzy
+#| msgid "Volunteer Management"
+msgid "Volunteer (assignee contact)"
+msgstr "Önkéntesek kezelése"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Assigner (source contact)"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Beneficiary (target contact)"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Limit To Current User"
+msgstr "Csak a jelenlegi felhasználóra korlátozva"
+
+#: CRM/Volunteer/Form/VolunteerReport.php ang/volunteer/Projects.html
+#: api/v3/VolunteerUtil.php
+msgid "No"
+msgstr "Nem"
+
+#: CRM/Volunteer/Form/VolunteerReport.php ang/volunteer/Projects.html
+#: api/v3/VolunteerUtil.php
+msgid "Yes"
+msgstr "Igen"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Last Name, First Name"
+msgstr "Vezetéknév, Keresztnév"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Employer"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Volunteer Email"
+msgstr "Önkéntes e-mailje"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Source Contact Email"
+msgstr "Forrás kapcsolat e-mail"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Target Contact Email"
+msgstr "Cél kapcsolat e-mail"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Subject"
+msgstr "Tárgy"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Scheduled Date/Time"
+msgstr "Ütemezett dátum/idő"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Activity Status"
+msgstr "Tevékenység állapota"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Activity Subject"
+msgstr "Tevékenység tárgya"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Volunteer Role"
+msgstr "Önkéntes szerepkör"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Time Scheduled in Minutes"
+msgstr "Ütemezett idő percekben"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Time Completed in Minutes"
+msgstr "Letöltött idő percekben"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Group for Volunteer (assignee contact)"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Tag for Volunteer (assignee contact)"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Volunteer Phone"
+msgstr "Önkéntes telfonja"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Source Contact Phone"
+msgstr "Forrás kapcsolat telefonja"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Target Contact Phone"
+msgstr "Célkapcsolat telefonja"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Total Time Scheduled in Minutes"
+msgstr "Összes ütemezett idő percekben"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Total Time Completed in Minutes"
+msgstr "Összes letöltött idő percekben"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "stored value:"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid ""
+"This report template has been updated to enable contact autocomplete on the "
+"\"Filters\" tab. Please review the following filters and re-save the report "
+"to ensure there are no unexpected results:"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "Time to Update Your Report!"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "View Contact Summary for this Contact"
+msgstr "Ezen kapcsolat kapcsolat összegzésének megtekintése"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
+msgid "View Activity Record"
+msgstr "Tevékenység rekord megtekintése"
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid ""
+"One or more of the specified volunteer opportunities is associated with a "
+"project which has been deleted or disabled."
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid ""
+"One or more specified volunteer opportunities has been deleted or disabled."
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid ""
+"One or more volunteer opportunities is at maximum capacity or is in the past."
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+#, fuzzy
+#| msgid "Sign Up to Volunteer for %1"
+msgid "Sign Up to Volunteer"
+msgstr "Jelentkezés önkéntesnek a %1"
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "Submit"
+msgstr "Beküldés"
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "Number of Additional Volunteers"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "You are scheduled to volunteer. Thank you!"
+msgstr "Önkéntesnek beütemezve. Köszönjük!"
+
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+#, fuzzy
+#| msgid "Please enter the actual duration for Completed volunteer activity"
+msgid "Please select a different volunteer opportunity"
+msgstr "Kérem adja meg a befejezett önkéntes tevékenység tényleges időtartamát"
+
+#: CRM/Volunteer/Page/Roster.php
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Volunteer Roster for %1"
+msgstr "Önkéntes szerepkör"
+
+#: CRM/Volunteer/Page/Roster.php
+msgid "No volunteers have been assigned to this project yet!"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+msgid "CiviVolunteer"
+msgstr "CiviÖnkéntes"
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "Delete Volunteer"
+msgid "register to volunteer"
+msgstr "Önkéntes törlése"
+
+#: CRM/Volunteer/Permission.php
+msgid ""
+"Access public-facing volunteer opportunity listings and registration forms"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "Log Volunteer Hours"
+msgid "log own hours"
+msgstr "Önkéntes idő naplója"
+
+#: CRM/Volunteer/Permission.php
+msgid "Access forms to self-report performed volunteer hours"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "create volunteer projects"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Permission.php
+msgid "Create a new volunteer project record in CiviCRM"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "edit own volunteer projects"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Permission.php
+msgid ""
+"Edit volunteer project records for which the user is specified as the Owner"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "edit all volunteer projects"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Permission.php
+msgid "Edit all volunteer project records, regardless of ownership"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "Delete Volunteer"
+msgid "delete own volunteer projects"
+msgstr "Önkéntes törlése"
+
+#: CRM/Volunteer/Permission.php
+msgid ""
+"Delete volunteer project records for which the user is specified as the Owner"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "Delete Volunteer"
+msgid "delete all volunteer projects"
+msgstr "Önkéntes törlése"
+
+#: CRM/Volunteer/Permission.php
+msgid "Delete any volunteer project record, regardless of ownership"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "edit volunteer project relationships"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Permission.php
+msgid ""
+"Override system-wide default project relationships for a particular "
+"volunteer project"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+msgid "edit volunteer registration profiles"
+msgstr ""
+
+#: CRM/Volunteer/Permission.php
+msgid ""
+"Override system-wide default registration profiles for a particular "
+"volunteer project"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "%1  frissítése a %2 változatra"
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"Used to describe a contact's relationship to a project at large (e.g., "
+"beneficiary, manager). Not to be confused with contact-to-contact "
+"relationships."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Owner"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"This contact owns the volunteer project. Useful if restricting edit/delete "
+"privileges."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Manager"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"This contact manages the volunteers in a project and will receive related "
+"notifications, etc."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php ang/volunteer/Projects.html
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+msgid "Beneficiary"
+msgstr "Kedvezményezett"
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"This contact benefits from the volunteer project (e.g., if organizations are "
+"brokering volunteers to other orgs)."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Message Template Workflow for Volunteers"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"Email sent to volunteers who sign themselves up for volunteer opportunities."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Volunteer - Registration (on-line)"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+#, fuzzy
+#| msgid "Volunteer Email"
+msgid "Volunteer Confirmation"
+msgstr "Önkéntes e-mailje"
+
+#: CRM/Volunteer/Upgrader.php
+#, fuzzy
+#| msgid "Volunteer Email"
+msgid "Volunteer Commendation"
+msgstr "Önkéntes e-mailje"
+
+#: CRM/Volunteer/Upgrader.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "Volunteer Project ID"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"This upgrade introduces two new permissions (\"Edit Volunteer Project "
+"Relationships\" and \"Edit Volunteer Registration Profiles\"). Grant these "
+"to allow users more control over the volunteer project create/edit workflow. "
+"Revoke them to streamline the process. Volunteer projects created by users "
+"lacking these privileges will use the defaults set by the system "
+"administrator."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "CiviVolunteer Upgrade Notice"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"This version of CiviVolunteer will not function without features that were "
+"introduced in CiviCRM v4.7.21. It is recommended that you upgrade CiviCRM."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Incompatible Versions"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"Some users have reported that their CiviVolunteer settings \"disappear\" "
+"after an upgrade. This is due to an issue with CiviCRM's extension system, "
+"but can usually be resolved by flushing CiviCRM's caches. For more "
+"information, see <a href=\"https://issues.civicrm.org/jira/browse/"
+"CRM-21210\">CRM-21210</a>."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Post-Upgrade Steps May Be Required"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Volunteer"
+msgstr "Önkéntes"
+
+#: CRM/Volunteer/Upgrader.php
+#, fuzzy
+#| msgid "Volunteer Email"
+msgid "Volunteer Information"
+msgstr "Önkéntes e-mailje"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Skill Level"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Not interested"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Teach me"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Apprentice"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Journeyman"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Master"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Camera Skill Level"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"CiviVolunteer tried to create a(n) %1 named %2, but it already exists. This "
+"may lead to unexpected behavior."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Field already exists"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Available"
+msgstr "Rendelkezésre áll"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "No-show"
+msgstr "Nem jelent meg"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Prerequisite check failed."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid ""
+"CiviVolunteer was installed successfully, but you must also install and "
+"enable the <a href=\"%1\">Angular Profiles Extension</a> before you can "
+"manage volunteer projects."
+msgstr ""
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Unknown error key: %1"
+msgstr ""
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Project"
+msgid "Project Settings"
+msgstr "Projekt"
+
+#: ang/volunteer/Project.html templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+#, fuzzy
+#| msgid "Project"
+msgid "Project Title"
+msgstr "Projekt"
+
+#: ang/volunteer/Project.html
+msgid "Project Description"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Preview Description"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Edit Location"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid ""
+"This location is used by other events/projects. Modifying location "
+"information will change values for all events/projects"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Address"
+msgstr ""
+
+#: ang/volunteer/Project.html ang/volunteer/VolOppsCtrl.html
+msgid "Street Address"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Supplemental Address 1"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Supplemental Address 2"
+msgstr ""
+
+#: ang/volunteer/Project.html ang/volunteer/VolOppsCtrl.html
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "City"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Postal Code - Suffix"
+msgstr ""
+
+#: ang/volunteer/Project.html ang/volunteer/VolOppsCtrl.html
+msgid "Country"
+msgstr ""
+
+#: ang/volunteer/Project.html templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Phone"
+msgstr "Telefon"
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone 1"
+msgstr "Telefon"
+
+#: ang/volunteer/Project.html
+msgid "ext."
+msgstr ""
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone 2"
+msgstr "Telefon"
+
+#: ang/volunteer/Project.html templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Email"
+msgstr "E-mail"
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Email"
+msgid "Email 1"
+msgstr "E-mail"
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Email"
+msgid "Email 2"
+msgstr "E-mail"
+
+#: ang/volunteer/Project.html
+msgid "Is this Project Active?"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Relationships"
+msgstr ""
+
+#: ang/volunteer/Project.html
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Volunteer Registration"
+msgstr "Önkéntes szerepkör"
+
+#: ang/volunteer/Project.html
+msgid ""
+"What questions would you like to ask your volunteers? Select one or more "
+"Profiles below to tailor the registration forms for this project."
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid ""
+"You may create up to two sign up forms for a volunteer project: one for "
+"individual registrations and another for group registrations. The \"Use For"
+"\" field specifies whether the Profile should be used for individual "
+"registrations, group registrations, or both. For group registrations, it is "
+"recommended that a single, short Profile be used."
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Profile:"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Use For:"
+msgstr ""
+
+#: ang/volunteer/Project.html
+msgid "Save and Done"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "No volunteer project exists with an ID of %1"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Not Found"
+msgstr ""
+
+#: ang/volunteer/Project.js ang/volunteer/Projects.js
+#: ang/volunteer/VolOppsCtrl.js js/CRM_Custom_Form_Field.js
+#: js/CRM_Volunteer_Form_Settings.js js/CRM_Volunteer_Form_VolunteerSignUp.js
+#: js/backbone/apps/assign/assign_views.js
+#: js/backbone/apps/define/define_views.js
+#: js/backbone/apps/search/search_controller.js
+#: js/backbone/apps/search/search_views.js js/commendation.js js/slider.js
+#, fuzzy
+#| msgid "CiviVolunteer"
+msgid "org.civicrm.volunteer"
+msgstr "CiviÖnkéntes"
+
+#: ang/volunteer/Project.js ang/volunteer/Projects.html
+#: js/CRM_Volunteer_Form_Volunteer.js
+#: templates/CRM/Volunteer/Form/Volunteer.tpl
+#, fuzzy
+#| msgid "Define Volunteer Needs"
+msgid "Define Volunteer Opportunities"
+msgstr "Önkéntes igények meghatározása"
+
+#: ang/volunteer/Project.js
+msgid "Continue"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "You must select at least one Profile"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Please select at least one profile, and remove empty selections"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "You may only have one profile that is used for group registrations"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Warning"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid ""
+"Please select at least one profile that is used for individual registrations"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Title is a required field"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "The %1 relationship must not be blank."
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Required"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Failed to save location details. Project could not be saved."
+msgstr ""
+
+#: ang/volunteer/Project.js ang/volunteer/Projects.js
+msgid "Error"
+msgstr "Hiba"
+
+#: ang/volunteer/Project.js
+msgid ""
+"Your submission was not saved. Resubmitting the form is unlikely to resolve "
+"this problem. Please contact a system administrator."
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "A technical problem has occurred"
+msgstr ""
+
+#: ang/volunteer/Project.js
+msgid "Changes saved successfully"
+msgstr ""
+
+#: ang/volunteer/Projects.html
+msgid ""
+"This page displays only the volunteer projects which you have access to edit."
+msgstr ""
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Project"
+msgid "Add Project"
+msgstr "Projekt"
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Actions"
+msgid "Bulk Actions"
+msgstr "Műveletek"
+
+#: ang/volunteer/Projects.html
+msgid "Run"
+msgstr ""
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Select Beneficiary"
+msgid "Filter by Beneficiary"
+msgstr "Válassza ki a kedvezményezettet"
+
+#: ang/volunteer/Projects.html
+msgid "Filter by Campaign"
+msgstr ""
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Actions"
+msgid "Active"
+msgstr "Műveletek"
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "Volunteer Project"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: ang/volunteer/Projects.html
+msgid "Associated Entity"
+msgstr ""
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Beneficiary"
+msgid "Beneficiaries"
+msgstr "Kedvezményezett"
+
+#: ang/volunteer/Projects.html
+msgid "(ID: %1)"
+msgstr ""
+
+#: ang/volunteer/Projects.html
+msgid "Edit"
+msgstr ""
+
+#: ang/volunteer/Projects.html js/CRM_Volunteer_Form_Volunteer.js
+#: templates/CRM/Volunteer/Form/Volunteer.tpl
+msgid "Assign Volunteers"
+msgstr "Önkéntesek hozzárendelése"
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "View Volunteer Roster"
+msgstr "Önkéntes szerepkör"
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Log Volunteer Hours"
+msgid "Log Hours"
+msgstr "Önkéntes idő naplója"
+
+#: ang/volunteer/Projects.html
+#, fuzzy
+#| msgid "Public?"
+msgid "Public Signup"
+msgstr "Nyilvános?"
+
+#: ang/volunteer/Projects.js
+msgid "We couldn't find a link to this item"
+msgstr ""
+
+#: ang/volunteer/Projects.js
+#, fuzzy
+#| msgid "Enabled"
+msgid "Enable"
+msgstr "Engedélyezve"
+
+#: ang/volunteer/Projects.js
+msgid "Are you sure you want to Enable the selected Projects?"
+msgstr ""
+
+#: ang/volunteer/Projects.js
+#, fuzzy
+#| msgid "Available"
+msgid "Disable"
+msgstr "Rendelkezésre áll"
+
+#: ang/volunteer/Projects.js
+msgid "Are you sure you want to Disable the selected Projects?"
+msgstr ""
+
+#: ang/volunteer/Projects.js
+msgid "Are you sure you want to Delete the selected Projects?"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Filter this List of Volunteer Opportunities"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+#, fuzzy
+#| msgid "Volunteer Phone"
+msgid "Find Volunteer Opportunities"
+msgstr "Önkéntes telfonja"
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Between"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Select Volunteer Role(s)"
+msgstr "Önkéntes szerepkör"
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "With"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Select Organizer(s)"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Search by Location"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Within"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Postal Code"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+#, fuzzy
+#| msgid "Select Contact"
+msgid "Select Country"
+msgstr "Kapcsolat kiválasztása"
+
+#: ang/volunteer/VolOppsCtrl.html js/backbone/apps/search/search_views.js
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Search"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Your Selected Volunteer Opportunities"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Commitments"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid ""
+"Make a commitment by clicking the checkbox for the volunteer opportunity "
+"that interests you."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid ""
+"Great! Make as many selections you like, then click 'Sign Up!' to complete "
+"your registration."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Time"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html templates/CRM/Volunteer/Form/Log.tpl
+msgid "Remove"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Sign Up!"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Hide selections"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "View selections"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "No results found. Please try different search criteria."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+#, fuzzy
+#| msgid "Available Volunteers"
+msgid "Available Volunteer Opportunities"
+msgstr "Rendelkezésre álló önkéntesek"
+
+#: ang/volunteer/VolOppsCtrl.html
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+msgid ""
+"For additional project or role detail, click the corresponding detail icon "
+"in the table below."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.html
+msgid "Sign up!"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid ""
+"Use this search form to find the volunteer opportunity near you that best "
+"matches with your personal skill set, interests, and time availability."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid ""
+"Click the checkbox for each volunteer opportunity you wish to add to your "
+"schedule, then click the \"Sign Up!\" button to supply your contact "
+"information and complete your registration."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid "Searching..."
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid "Search complete"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid "Campaign:"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid "km"
+msgstr ""
+
+#: ang/volunteer/VolOppsCtrl.js
+msgid "miles"
+msgstr ""
+
+#: ang/volunteer.js
+msgid "Failed to load all backbone resources"
+msgstr ""
+
+#: api/v3/VolunteerProject.php
+msgid "You do not have permission to delete this event"
+msgstr ""
+
+#: api/v3/VolunteerProjectContact.php
+msgid "You do not have permission to modify contacts for this project"
+msgstr ""
+
+#: js/VolunteerSignUp.js
+msgid "Please supply a number"
+msgstr ""
+
+#: js/VolunteerSignUp.js
+msgid ""
+"This opportunity can accommodate only %1 more volunteer(s). Click a button "
+"below to select a course of action."
+msgstr ""
+
+#: js/VolunteerSignUp.js
+msgid "Continue with %1 volunteer(s)"
+msgstr ""
+
+#: js/VolunteerSignUp.js
+msgid "Search for other opportunities in this project"
+msgstr ""
+
+#: js/VolunteerSignUp.js
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "Search all volunteer projects"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: js/VolunteerSignUp.js
+msgid "Invalid Selection"
+msgstr ""
+
+#: js/backbone/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Available Volunteers"
+msgstr "Rendelkezésre álló önkéntesek"
+
+#: js/backbone/apps/assign/assign_views.js
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Volunteer Moved"
+msgstr "Önkéntes szerepkör"
+
+#: js/backbone/apps/assign/assign_views.js
+#, fuzzy
+#| msgid "Volunteer Role"
+msgid "Volunteer Copied"
+msgstr "Önkéntes szerepkör"
+
+#: js/backbone/apps/assign/assign_views.js
+msgid "%1 More Needed"
+msgstr "További szükséges önkéntes %1 "
+
+#: js/backbone/apps/assign/assign_views.js
+msgid "%1 Needed"
+msgstr "%1 szükséges"
+
+#: js/backbone/apps/assign/assign_views.js
+msgid "None"
+msgstr "Egyik sem"
+
+#: js/backbone/apps/assign/assign_views.js
+msgid "Delete Volunteer"
+msgstr "Önkéntes törlése"
+
+#: js/backbone/apps/assign/assign_views.js
+msgid "Remove %1 from %2?"
+msgstr "Eltávolítsam az %1 a %2?"
+
+#: js/backbone/apps/define/define_views.js
+msgid ""
+"There is currently %count volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr ""
+"Jelenleg %count önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek "
+"tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a "
+"váltásról."
+
+#: js/backbone/apps/define/define_views.js
+msgid ""
+"There is currently %1 volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr ""
+"Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek "
+"tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a "
+"váltásról."
+
+#: js/backbone/apps/define/define_views.js
+msgid "There are currently %1 volunteers assigned to this need."
+msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez."
+
+#: js/backbone/apps/define/define_views.js
+msgid ""
+"There are currently %1 volunteers assigned to this need. The volunteers' "
+"activity histories will be preserved, but they will be disconnected from "
+"this shift."
+msgstr ""
+"Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek "
+"tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a "
+"váltásról."
+
+#: js/backbone/apps/define/define_views.js
+msgid "Delete %1"
+msgstr "%1 törlése"
+
+#: js/backbone/apps/search/search_controller.js
+msgid "Group"
+msgstr ""
+
+#: js/backbone/apps/search/search_controller.js
+#, fuzzy
+#| msgid "Assign Volunteers"
+msgid "Find Volunteers"
+msgstr "Önkéntesek hozzárendelése"
+
+#: js/backbone/apps/search/search_controller.js
+msgid "Assign"
+msgstr ""
+
+#: js/backbone/apps/volunteer_app.js
+msgid "Done"
+msgstr "Kész"
+
+#: js/commendation.js
+msgid "Commendation deleted"
+msgstr ""
+
+#: js/commendation.js
+msgid "Commendation created"
+msgstr ""
+
+#: js/commendation.js
+msgid "Commendation updated"
+msgstr ""
+
+#: js/slider.js
+msgid "Not specified"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/Error.tpl
+msgid "You cannot proceed to register because of the following problem(s):"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/Error.tpl
+msgid "Find more volunteer opportunities"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/Error.tpl
+msgid "Home"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/IncludeProfile.tpl
+msgid "remove profile"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/IncludeProfile.tpl
+msgid "add another profile"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid ""
+"Available and scheduled volunteers are listed below. Enter the time spent by "
+"each volunteer in minutes under Actual Duration and change status to "
+"Completed. Click 'Add Volunteer to record hours for volunteers not already "
+"listed below. Click Save to save your entries."
+msgstr ""
+"A rendelkezésre álló és ütemezett önkéntesek listája. Adja meg percekben "
+"minden egyes önkéntes által eltöltött időt a Tényleges időtartam alatt és "
+"állítsa át Befejezettre az állapotát. Kattintson az alább nem kilistázott "
+"önkéntesek által eltöltött idő hozzáadására az 'Önkéntes hozzáadásárra. "
+"Kattintson a Mentésre a megadott adatok rögzítéséhez."
+
+#: templates/CRM/Volunteer/Form/Log.tpl templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "This field is required."
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Start Date"
+msgstr "Kezdő dátum"
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+#, fuzzy
+#| msgid "Scheduled Duration"
+msgid "Scheduled Duration <br/> (in minutes)"
+msgstr "Ütemezett időtartam"
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Click to copy Actual Duration from row one to all rows."
+msgstr ""
+"Kattintson a Tényleges időtartam első sorban megadott adat, összes sorba "
+"történő másoláshoz. "
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Click here to copy the Actual Duration value in row one to ALL rows."
+msgstr ""
+"Kattintson ide az Tényleges időtartam első sorában megadott értékének az "
+"ÖSSZES sorba másolásához.  "
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+#, fuzzy
+#| msgid "Actual Duration"
+msgid "Actual Duration <br/> (in minutes)"
+msgstr "Tényleges időtartam"
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Click to copy Volunteer Status from row one to all rows."
+msgstr ""
+"Kattintson a 'Önkéntes állapota' az első sorban megadott adatának, összes "
+"sorba történő másoláshoz. "
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Click here to copy the Volunteer Status value in row one to ALL rows."
+msgstr ""
+"Kattintson ide az 'Önkéntes állapota' első sorában megadott értékének az "
+"ÖSSZES sorba másolásához.  "
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+msgid "Status"
+msgstr "Állapot"
+
+#: templates/CRM/Volunteer/Form/Log.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Add Volunteer"
+msgstr "Önkéntes hozzáadása"
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+msgid "Volunteer Management"
+msgstr "Önkéntesek kezelése"
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+#, fuzzy
+#| msgid ""
+#| "If you want to provide Volunteer Management for this event,\n"
+#| "    check the box below and submit the form. After the submission is\n"
+#| "    processed, you will be provided links to define volunteer needs for "
+#| "the\n"
+#| "    event, to assign volunteers to needs, and to log volunteer hours."
+msgid ""
+"If you want to provide Volunteer Management for this event,\n"
+"    check the box below and submit the form. After the submission is\n"
+"    processed, you will be provided links to define volunteer opportunities "
+"for the\n"
+"    event, to assign volunteers to opportunities, and to log volunteer hours."
+msgstr ""
+"Ha erre az eseményre az önkéntesek kezelését használni akarja,\n"
+"válassza ki az alábbi jelölőnégyzetet és küldje be az űrlapot.\n"
+"Amint a beküldés feldolgozásra kerül, egy linket kap az eseményhez "
+"szükséges\n"
+"önkéntes igényeinek összeállításához, az önkéntes igények "
+"hozzárendeléséhez,\n"
+"és az önkéntesek jelenlétének naplózásához"
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+#, fuzzy
+#| msgid ""
+#| "Immediately upon enabling Volunteer Management for this event, a\n"
+#| "    volunteer sign-up form will become available from the Event Info\n"
+#| "    Page to users with the \"register to volunteer\" permission."
+msgid ""
+"Immediately upon enabling Volunteer\n"
+"      Management for this event, a volunteer sign-up form will become "
+"available\n"
+"      from the Event Info Page."
+msgstr ""
+"Erre az eseményre történő önkéntes kezelés engedélyezése után azonnal,\n"
+"az önkéntes feliratkozási űrlap elérhető lesz az esemény információs "
+"oldalán,\n"
+"az olyan felhasználóknak akik rendelkeznek a \"önkéntesként regisztrálhat\" "
+"beállítással."
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+#, fuzzy
+#| msgid ""
+#| "Immediately upon enabling Volunteer Management for this event, a\n"
+#| "    volunteer sign-up form will become available from the Event Info\n"
+#| "    Page to users with the \"register to volunteer\" permission."
+msgid ""
+"Immediately upon enabling Volunteer\n"
+"      Management for this event, a volunteer sign-up form will become "
+"available\n"
+"      from the Event Info Page to users with the \"register to volunteer\"\n"
+"      permission."
+msgstr ""
+"Erre az eseményre történő önkéntes kezelés engedélyezése után azonnal,\n"
+"az önkéntes feliratkozási űrlap elérhető lesz az esemény információs "
+"oldalán,\n"
+"az olyan felhasználóknak akik rendelkeznek a \"önkéntesként regisztrálhat\" "
+"beállítással."
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+msgid ""
+"You can configure the organization (or other type of contact) which is "
+"benefiting from\n"
+"    volunteer activity at this event by selecting an existing contact or "
+"creating a new one.\n"
+"    This is particularly useful when an event is related to a chapter, "
+"regional entity, etc. Otherwise\n"
+"    you can leave default beneficiary - which will be set to your site's "
+"default organization contact record."
+msgstr ""
+"Beállíthatja azt a szerveztet (vagy más típusú kapcsolatot) aki "
+"kedvezményezettje lesz az\n"
+"önkéntes tevékenységnek erre az eseményre, meglévő kapcsolatot kiválasztva "
+"vagy újat létrehozva.\n"
+"Ez különösen akkor hasznos ha az esemény egy regionális szervezethez vagy "
+"bizottsághoz, stb. \n"
+"kapcsolható. Egyébként az alapértelmezett beállítást hagyva - a "
+"kedvezményezett a kapcsolati rekordban meghatározott alapértelezett "
+"szervezet."
+
+#: templates/CRM/Volunteer/Form/Volunteer.hlp
+msgid ""
+"The target contact for volunteer activities will be set to the beneficiary. "
+"You can filter activity searches,\n"
+"    and Volunteer and Activity reports by beneficiary using the target "
+"contact filters."
+msgstr ""
+"Az önkéntes tevékenységek célkapcsolata a kedvezményezetthez lesz beállítva. "
+"A tevékenység keresések, önkéntes és tevékenység jelentések szűrhetők a "
+"kedvezményezett szerint, a célkapcsolat szűrők felhasználásával.  "
+
+#: templates/CRM/Volunteer/Form/Volunteer.tpl
+msgid "Log Volunteer Hours"
+msgstr "Önkéntes idő naplója"
+
+#: templates/CRM/Volunteer/Form/Volunteer.tpl
+msgid "Edit Settings"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+msgid ""
+"Thank you for being a volunteer! You are registering for the following "
+"volunteer commitments:"
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+#, fuzzy
+#| msgid "Select Beneficiary"
+msgid "Project Beneficiaries"
+msgstr "Válassza ki a kedvezményezettet"
+
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+#, fuzzy
+#| msgid "Start Date and Time"
+msgid "Date and Time"
+msgstr "Kezdő dátum és idő"
+
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+msgid ""
+"Please provide the following information and submit the form to complete "
+"your registration."
+msgstr ""
+
+#: templates/CRM/Volunteer/Form/VolunteerSignUp.tpl
+#, fuzzy
+#| msgid "Add Volunteer"
+msgid "Additional Volunteers"
+msgstr "Önkéntes hozzáadása"
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Loading"
+msgstr "Betöltés"
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Actions"
+msgstr "Műveletek"
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Filter"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Name"
+msgstr "Név"
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Move To:"
+msgstr "Átmozgatás:"
+
+#: templates/CRM/Volunteer/Page/Backbone/Assign.tpl
+msgid "Copy To:"
+msgstr "Másolás:"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+#, fuzzy
+#| msgid "Volunteer Phone"
+msgid "Volunteer Opportunities"
+msgstr "Önkéntes telfonja"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+#, fuzzy
+#| msgid ""
+#| "Use this form to specify the number of volunteers needed for each role\n"
+#| "    and time slot. If no needs are specified, volunteers will be "
+#| "considered to\n"
+#| "    be generally available."
+msgid ""
+"Use this form to define the number of volunteers needed for each role and "
+"time slot. For each slot, you will select a role, set the number of "
+"volunteers needed, and select a schedule type."
+msgstr ""
+"Használja ezt az űrlapot az egyes szerepkörökben és szekciókban szükséges\n"
+"önkéntesek számának megadására. Ha nincsenek az igények megadva úgy "
+"tekintjük, \n"
+"hogy az önkéntesek általában rendelkezésre állnak."
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"Opportunities which have both the 'Public' and 'Enabled' boxes checked will "
+"appear in the public volunteer opportunity search. If the volunteer project "
+"is associated with an event, a 'Sign Up' button will be displayed on the "
+"event information page. Volunteer may sign up without specifying a shift if "
+"the 'Allow users to sign up without specifying a shift' box is checked."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"You will also need to ensure that the 'CiviVolunteer: register to volunteer' "
+"and 'CiviCRM: access AJAX API' permissions have been enabled."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+#, fuzzy
+#| msgid "Scheduled Date/Time"
+msgid "Schedule Type"
+msgstr "Ütemezett dátum/idő"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"Select a Schedule Type to see only the time-related fields relevant to your "
+"volunteer opportunity."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+#, fuzzy
+#| msgid "Shift"
+msgid "Set Shift:"
+msgstr "Eltolás"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"Select this schedule type for a volunteer opportunity with a specific start "
+"time and duration. Example: Pamphleteering starts at 9:00 AM and lasts for "
+"two hours."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid "Flexible Timeframe:"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"Select this schedule type for a volunteer opportunity with a specific "
+"duration but flexible dates. Example: I need a volunteer to complete 15 "
+"hours of filing sometime during the month of December."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid "Open-Ended:"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid ""
+"Select this schedule type for a volunteer opportunity with no time or "
+"duration constraints. Example: I need a volunteer graphic designer."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.hlp
+msgid "."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid ""
+#| "Use this form to specify the number of volunteers needed for each role\n"
+#| "    and time slot. If no needs are specified, volunteers will be "
+#| "considered to\n"
+#| "    be generally available."
+msgid ""
+"Use this form to specify the number of volunteers needed for each role and "
+"time slot. If no opportunities are specified, volunteers will be considered "
+"to be generally available."
+msgstr ""
+"Használja ezt az űrlapot az egyes szerepkörökben és szekciókban szükséges\n"
+"önkéntesek számának megadására. Ha nincsenek az igények megadva úgy "
+"tekintjük, \n"
+"hogy az önkéntesek általában rendelkezésre állnak."
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Volunteers Needed"
+msgstr "Igényelt önkéntes"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Public?"
+msgstr "Nyilvános?"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid "Scheduled Date/Time"
+msgid "Schedule Type:"
+msgstr "Ütemezett dátum/idő"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid "-select-"
+msgid "- select one -"
+msgstr "-kiválasztás-"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid "Shift"
+msgid "Set shift"
+msgstr "Eltolás"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid "Flexible"
+msgid "Flexible timeframe"
+msgstr "Rugalmas"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Open-Ended"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Start Date/Time"
+msgstr "Kezdő dátum/Idő"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+#, fuzzy
+#| msgid "Start Date/Time"
+msgid "End Date/Time"
+msgstr "Kezdő dátum/Idő"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "Minutes"
+msgstr "Percek"
+
+#: templates/CRM/Volunteer/Page/Backbone/Define.tpl
+msgid "New Opportunity"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Edit Search Criteria"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+#, fuzzy
+#| msgid "Loading"
+msgid "Loading&hellip;"
+msgstr "Betöltés"
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Search results listings."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Select All Rows"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+#, fuzzy
+#| msgid "Status"
+msgid "State"
+msgstr "Állapot"
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Previous"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Backbone/Search.tpl
+msgid "Next"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Send %1 an email."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+#, fuzzy
+#| msgid "Delete %1"
+msgid "Telephone %1."
+msgstr "%1 törlése"
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Call"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Send %1 an SMS message."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "SMS"
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Assignments that end before %1 are not shown."
+msgstr ""
+
+#: templates/CRM/Volunteer/Page/Roster.tpl
+msgid "Back to Manage Volunteer Projects."
+msgstr ""
+
+#: templates/Slider/CRM/Custom/Form/Field.hlp
+#, fuzzy
+#| msgid "CiviVolunteer Installed"
+msgid "CiviVolunteer Slider Widget"
+msgstr "CiviÖnkéntes telepítve"
+
+#: templates/Slider/CRM/Custom/Form/Field.hlp
+msgid ""
+"CiviVolunteer introduces a slider widget for\n"
+"    multi-select fields where the option list represents a continuum. The "
+"options\n"
+"    in the multi-select list are converted to stops on a slider. Items with "
+"a\n"
+"    lower weight in the option group will appear on the left side of the "
+"slider,\n"
+"    while heavily weighted items will appear on the right."
+msgstr ""
+
+#: templates/Slider/CRM/Custom/Form/Field.hlp
+msgid ""
+"The Skill Level option group that ships with\n"
+"    CiviVolunteer demonstrates the benefit of this feature. When a user "
+"drags the\n"
+"    slider, the current option (e.g., \"Master\") as well as all options "
+"with a lower\n"
+"    weight are selected. As a result, a search for volunteers qualified to "
+"do\n"
+"    \"Apprentice\"-level work will include volunteers with \"Master\"-level "
+"skills."
+msgstr ""
+
+#: templates/Slider/CRM/Custom/Form/Field.tpl
+msgid ""
+"Display option set as a slider? (This functionality is provided by "
+"CiviVolunteer.)"
+msgstr ""
+
+#: volunteer.php
+msgid "Volunteers"
+msgstr "Önkéntesek"
+
+#: volunteer.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "New Volunteer Project"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: volunteer.php
+#, fuzzy
+#| msgid "CiviVolunteer Project ID"
+msgid "Manage Volunteer Projects"
+msgstr "CiviÖnkéntes projekt azonosító"
+
+#: volunteer.php
+msgid "Configure Roles"
+msgstr ""
+
+#: volunteer.php
+msgid "Configure Project Relationships"
+msgstr ""
+
+#: volunteer.php
+#, fuzzy
+#| msgid "Define Volunteer Needs"
+msgid "Configure Volunteer Settings"
+msgstr "Önkéntes igények meghatározása"
+
+#: volunteer.php
+#, fuzzy
+#| msgid "Volunteer Needs"
+msgid "Volunteer Interest Form"
+msgstr "Önkéntes igények"
+
+#: volunteer.php
+msgid "Search for Volunteer Opportunities"
+msgstr ""
+
+#: volunteer.php
+msgid "Getting Started:"
+msgstr "Kezdési idő:"
+
+#: volunteer.php
+msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
+msgstr "Tekintse meg a <a href=\"%1\" target=\"_blank\">dokumentációt</a>"
+
+#: volunteer.php
+msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
+msgstr "Tegye fel kérdéseit a <a href=\"%1\" target=\"_blank\">fórumon</a>"
+
+#: volunteer.php
+msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
+msgstr "Állítsa be az <a href=\"%1\" target=\"_blank\">önkéntes szerepeket</a>"
+
+#: volunteer.php
+msgid ""
+"Enable volunteer management for one or more <a href=\"%1\" target=\"_blank"
+"\">events</a>"
+msgstr ""
+"Engedélyezze az önkéntesek kezelését egy vagy több <a href=\"%1\" target="
+"\"_blank\">eseményre</a>"
+
+#: volunteer.php
+msgid "CiviVolunteer Installed"
+msgstr "CiviÖnkéntes telepítve"
+
+#: volunteer.php
+msgid "Volunteer Now"
+msgstr "Most önkéntes"
+
+#: volunteer.slider.php
+msgid "Use Slider Selector?"
+msgstr ""
+
+#~ msgid "I'm Flexible"
+#~ msgstr "Rugalmas vagyok"
+
+#~ msgid "Enable Volunteer Management?"
+#~ msgstr "Önkéntesek kezelésének engedélyezése?"
+
+#~ msgid "Additional Information"
+#~ msgstr "Kiegészítő információ"
+
+#~ msgid "Copied"
+#~ msgstr "Másolva"
+
+#~ msgid "%1 has been created."
+#~ msgstr "%1 létrehozva."
+
+#~ msgid "Add"
+#~ msgstr "Hozzáadás"
+
+#~ msgid "OR"
+#~ msgstr "VAGY"
+
+#~ msgid "- create new contact -"
+#~ msgstr "- új kapcsolat létrehozása -"
+
+#~ msgid ""
+#~ "\n"
+#~ "    <p>Use this form to define the number of volunteers needed for each "
+#~ "role and time slot.\n"
+#~ "    For each slot, you will select a role, set the number of volunteers "
+#~ "needed,\n"
+#~ "    set a start date and time, and indicate the duration in minutes.</p>\n"
+#~ "    <p>If you want to include a Sign Up button on the event information "
+#~ "page, check\n"
+#~ "    the 'Public' column for at least one of the slots, or check the box "
+#~ "to allow users to\n"
+#~ "    sign up without specifying a shift. 'Public' slots will be visible on "
+#~ "the\n"
+#~ "    public signup form. You will also need to ensure that the "
+#~ "'CiviVolunteer: register to volunteer'\n"
+#~ "    permission has been enabled.\n"
+#~ "    </p>\n"
+#~ "    <p>If this is a new type of volunteer project, you may need to create "
+#~ "additional volunteer roles\n"
+#~ "    first from <a href=%1>Administer > Administration Console > Volunteer "
+#~ "Roles</a>.</p>\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "<p>Használja ezt az űrlapot annak meghatározására, hogy melyik szekcióra "
+#~ "és milyen szerepkörre hány önkéntes szükséges. \n"
+#~ "Minden szekcióra, válassza ki a szerepkört és adja meg a szükséges "
+#~ "önkéntes számot,\n"
+#~ "állítsa be a kezdő dátumot és időt, adja meg a szükséges időt percekben.</"
+#~ "p>\n"
+#~ "<p>Ha az esemény információs oldalába a feliratkozási nyomógombot be "
+#~ "szeretné tenni, válassza ki \n"
+#~ "a 'Nyilvános' oszlopot legalább egy szekciónál, vagy válassza ki azt az "
+#~ "opciót amely\n"
+#~ "lehetővé teszi a felhasználóknak a feliratkozást a szekció megjelölése "
+#~ "nélkül. \n"
+#~ "A 'Nyilvános' szekciók láthatók lesznek a nyilvános feliratkozási "
+#~ "űrlapokon. Továbbá, \n"
+#~ "meg kell győződnie arról, hogy a 'CiviÖnkéntes: önkéntesnek jelentkezés' "
+#~ "engedélyezve van. \n"
+#~ "</p>\n"
+#~ "<p>Ha ez egy új típusú önkéntes projekt, további önkéntes szerepek "
+#~ "hozzáadása válhat szükségessé  az <a href=%1>Adminisztrál > "
+#~ "Adminisztrációs konzol > Önkéntes szerepekörök</a> alatt.</p>\n"
+#~ "    "
+
+#~ msgid "Create new"
+#~ msgstr "Új létrehozása"
+
+#~ msgid ""
+#~ "If you want to disable Volunteer Management for this event, uncheck\n"
+#~ "      the box below and submit the form. Disabling Volunteer Management "
+#~ "for this\n"
+#~ "      event will not result in loss of volunteer data."
+#~ msgstr ""
+#~ "Ha erre az eseményre az önkéntesek kezelését leakarja tiltani,\n"
+#~ "az alábbi jelölőnégyzetet kiválasztását szüntesse meg és küldje be az "
+#~ "űrlapot.\n"
+#~ "Az önkéntesek kezelésének letiltása erre az eseményre nincs hatással az "
+#~ "önkéntesek adataira."
+
+#~ msgid ""
+#~ "If you want to enable Volunteer Management for this event, check\n"
+#~ "      the box below and submit the form."
+#~ msgstr ""
+#~ "Ha erre az eseményre az önkéntesek kezelését engedélyezni akarja,\n"
+#~ "az alábbi jelölőnégyzetet válassza ki és küldje be az űrlapot."
+
+#~ msgid "Enable or disable volunteer management for this event."
+#~ msgstr "Önkéntesek kezelésének engedélyezése letiltása erre az eseményre."
+
+#~ msgid ""
+#~ "Your extension resource url is not configured correctly. CiviVolunteer "
+#~ "cannot work without this setting."
+#~ msgstr ""
+#~ "Az kiterjesztések erőforrás URL-je nincs rendesen beállítva. A "
+#~ "CiviÖnkéntes ezen beállítás nélkül nem működik."
+
+#~ msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
+#~ msgstr ""
+#~ "Javítsa a problémát a <a href=\"%1\">Rendszerbeállítások - Erőforrás URL-"
+#~ "ek</a> alatt."
